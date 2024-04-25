@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
   - nginx-deployment.yaml
   - helm-release.yaml
+  - helm-repo.yaml
