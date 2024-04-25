@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: podinfo
+  namespace: default
+spec:
+  interval: 0m10s
+  url: https://github.com/alonstern/flux-test.git
+  ref:
+    branch: master
